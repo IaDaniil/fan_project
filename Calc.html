@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calc</title>
+    <link rel="stylesheet" href="Calc.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" media="screen and (orientation: portrait) and
+    (max-width:550px), projection" "href=»Calc.csss" />
+  </head>
+  <body>
+    <header>
+      <h1>Калькулятор квадратных уравнений</h1>
+    </header>
+    <main>
+      <article class="maincontent">
+        <div class="m1">
+          <form action="">
+            <input type="number" id="a" /> X<sup>2</sup>+
+            <input type="number" id="b" /> X + <input type="number" id="c" /> =
+            0 <br /><br /><input
+              type="button"
+              value="Решить"
+              onclick="prog();"
+            />
+          </form>
+          <div id="otvet">
+            <h2>Результат:</h2>
+            <pre id="result"></pre>
+          </div>
+        </div>
+      </article>
+      <article class="sidebar">
+        <div class="s1">
+          <h3><a href="index.html" id="str1">Первая страница</a></h3>
+          <h3><a href="index2.html" id="str2">Вторая страница</a></h3>
+          <h3><a href="index3.html" id="str3">Третья страница</a></h3>
+        </div>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+    <script src="Calc.js"></script>
+  </body>
+</html>
